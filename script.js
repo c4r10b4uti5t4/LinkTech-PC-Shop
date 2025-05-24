@@ -1,7 +1,7 @@
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 function addToCart() {
-  const select = document.getElementById("bookSelect");
+  const select = document.getElementById("itemSelect");
   const value = select.value;
   if (!value) return;
 
