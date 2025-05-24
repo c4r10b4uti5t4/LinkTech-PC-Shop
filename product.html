@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Item Page/title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Select a Product to Add to Cart</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="items.html">Items</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <section>
+    <select id="productSelect">
+      <option value="">-- Choose a product --</option>
+      <option value="Computer Keyboard|1000">Computer Keyboard - ₱1000</option>
+      <option value="PC Monitor|4900">PC Monitor - ₱4000</option>
+      <option value="Computer Mouse|2000">Computer Mouse - ₱2000</option>
+    </select>
+    <button onclick="addToCart()">Add to Cart</button>
+  </section>
+</body>
+</html>
